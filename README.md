@@ -7,7 +7,7 @@ Client side:
 Server side:
 - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
 
-### Hall Configuration:
+## Hall Configuration:
 - Rows: 6
 - Seats per Row: 12
 
