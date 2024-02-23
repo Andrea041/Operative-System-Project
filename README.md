@@ -12,15 +12,15 @@ Implementation choices:
 - Seats per Row: 12
 
 #### Layout of the Theater Hall:
-xxxxxoxxxxxx
+xxxxxoxxxxxx  
 
 #### Seat Availability in the Hall:
-ooooooxxxxoo
-oxoooooxoooo
-oooooooxoooo
-oooooooooooo
-oooooooooooo
-oooooooooooo
+ooooooxxxxoo  
+oxoooooxoooo  
+oooooooxoooo  
+oooooooooooo  
+oooooooooooo  
+oooooooooooo  
 
 #### Reserved Seats:
 - xxxx=a1-3
