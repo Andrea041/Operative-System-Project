@@ -1,4 +1,4 @@
-# Operating System project for OS course
+# Cinema hall management system in C for Operating System course
 
 ## Implementation Choices
 Client side: 
