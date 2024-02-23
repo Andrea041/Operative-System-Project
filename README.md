@@ -5,7 +5,7 @@ Implementation choices:
   - Seats can only be booked in a rightward direction, starting from a designated seat
     
   Server side:
-    - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
+  - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
     
     File sala:
         6 -> File
