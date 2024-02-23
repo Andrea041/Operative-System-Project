@@ -7,20 +7,27 @@ Implementation choices:
   Server side:
   - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
 
-Hall:
-  6 -> Rows
-  12 -> Seats per row
-  xxxxxoxxxxxx -> Layout of the theater hall
-  ooooxooooooo -> Seat availability in the hall
-  oooxxooooooo -> Seat availability in the hall
-  ooooooxxxooo -> Seat availability in the hall
-  oooooooooooo -> Seat availability in the hall
-  oooooooooooo -> Seat availability in the hall
-  xxxx=a1-3 -> Reserved seats
-  xxxx=e5-1 -> Reserved seats
-  xxxx=e10-1 -> Reserved seats
-  xxxx=c4-2 -> Reserved seats
-  xxxx=d7-3 -> Reserved seats
+### Hall Configuration:
+- Rows: 6
+- Seats per Row: 12
 
-  Reservation Code Structure:
-      yyyyMMddhhmmccxxxx -> yyyy/mm/dd date, hh:mm showtime, xxxx unique code
+#### Layout of the Theater Hall:
+xxxxxoxxxxxx
+
+#### Seat Availability in the Hall:
+ooooooxxxxoo
+oxoooooxoooo
+oooooooxoooo
+oooooooooooo
+oooooooooooo
+oooooooooooo
+
+#### Reserved Seats:
+- xxxx=a1-3
+- xxxx=e5-1
+- xxxx=e10-1
+- xxxx=c4-2
+- xxxx=d7-3
+
+### Reservation Code Structure:
+yyyyMMddhhmmccxxxx -> yyyy/mm/dd date, hh:mm showtime, xxxx unique code
