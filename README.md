@@ -1,11 +1,11 @@
 # Operating System project for OS course
 
-Implementation choices:  
-  Client side: 
-  - Seats can only be booked in a rightward direction, starting from a designated seat
+## Implementation choices
+Client side: 
+- Seats can only be booked in a rightward direction, starting from a designated seat
     
-  Server side:
-  - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
+Server side:
+- Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
 
 ### Hall Configuration:
 - Rows: 6
