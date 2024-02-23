@@ -1,6 +1,6 @@
 # Operating System project for OS course
 
-## Implementation choices
+## Implementation Choices
 Client side: 
 - Seats can only be booked in a rightward direction, starting from a designated seat
     
