@@ -6,22 +6,21 @@ Implementation choices:
     
   Server side:
   - Storage must be in the 'storage' folder and must be at the same level as the folder containing the compiled code
-    
-  File sala:
-      6 -> File
-      12 -> Posti
-      xxxxxoxxxxxx -> Sala
-      ooooxooooooo -> Sala
-      oooxxooooooo -> Sala
-      ooooooxxxooo -> Sala
-      oooooooooooo -> Sala
-      oooooooooooo -> Sala
-      xxxx=a1-3
-      xxxx=e5-1
-      xxxx=e10-1
-      xxxx=c4-2
-      xxxx=d7-3
 
-      Struttura codice prenotazioni:
-          dataoracodiceunivoco
-          aaaammddhhmmccxxxx -> aaaa/mm/dd data, hh:mm orario spettacolo, xxxx codice univoco
+Hall:
+  6 -> Rows
+  12 -> Seats per row
+  xxxxxoxxxxxx -> Layout of the theater hall
+  ooooxooooooo -> Seat availability in the hall
+  oooxxooooooo -> Seat availability in the hall
+  ooooooxxxooo -> Seat availability in the hall
+  oooooooooooo -> Seat availability in the hall
+  oooooooooooo -> Seat availability in the hall
+  xxxx=a1-3 -> Reserved seats
+  xxxx=e5-1 -> Reserved seats
+  xxxx=e10-1 -> Reserved seats
+  xxxx=c4-2 -> Reserved seats
+  xxxx=d7-3 -> Reserved seats
+
+  Reservation Code Structure:
+      yyyyMMddhhmmccxxxx -> yyyy/mm/dd date, hh:mm showtime, xxxx unique code
