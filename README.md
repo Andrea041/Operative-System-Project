@@ -1,4 +1,4 @@
-# Cinema hall management system for Operating System course
+# Cinema hall management system
 
 ## Implementation Choices
 Client side: 
